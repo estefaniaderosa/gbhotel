@@ -29,7 +29,7 @@ window.addEventListener('resize',showButton);
         <>
           <div className="navbar">
               <div className="navbar-container container">
-                  <Link to='/' className="navbar-logo" onClick={closeMobileMenu} >
+                  <Link to='/gbhotel/' className="navbar-logo" onClick={closeMobileMenu} >
                       <FaHotel className="navbar-icon" />
                       GRAND BEACH
                   </Link>
