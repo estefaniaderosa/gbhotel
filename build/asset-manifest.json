@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/grandbeachhotel/static/css/main.4ff184c7.chunk.css",
+    "main.js": "/grandbeachhotel/static/js/main.77e717e7.chunk.js",
+    "main.js.map": "/grandbeachhotel/static/js/main.77e717e7.chunk.js.map",
+    "runtime-main.js": "/grandbeachhotel/static/js/runtime-main.a495bd8a.js",
+    "runtime-main.js.map": "/grandbeachhotel/static/js/runtime-main.a495bd8a.js.map",
+    "static/js/2.ce2a172b.chunk.js": "/grandbeachhotel/static/js/2.ce2a172b.chunk.js",
+    "static/js/2.ce2a172b.chunk.js.map": "/grandbeachhotel/static/js/2.ce2a172b.chunk.js.map",
+    "index.html": "/grandbeachhotel/index.html",
+    "static/css/main.4ff184c7.chunk.css.map": "/grandbeachhotel/static/css/main.4ff184c7.chunk.css.map",
+    "static/js/2.ce2a172b.chunk.js.LICENSE.txt": "/grandbeachhotel/static/js/2.ce2a172b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a495bd8a.js",
+    "static/js/2.ce2a172b.chunk.js",
+    "static/css/main.4ff184c7.chunk.css",
+    "static/js/main.77e717e7.chunk.js"
+  ]
+}

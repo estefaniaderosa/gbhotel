@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+ /* -----------------  */
+  /* Button's Style */
+/* ----------------- */
+
+.button, .button:link, .button:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 3.5rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer; 
+    
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+  }
+  
+  .button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; 
+  }
+  
+  .button:active, .button:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+  }
+  
+  .button--white {
+    background-color: #fff;
+    color: #777; 
+  }
+  
+  .button--white::after {
+    background-color: #fff; 
+  }
+  
+  .button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s; 
+  }
+  
+  .button--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards; 
+  }
+  
+
+
+ /* ----------------- */
+    /* Card's Style */
+ /* ----------------- */
+  
+  .card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 49rem; 
+    width: 30%;
+  }
+
+  .card__side {
+    height: 49rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+  }
+  
+  .card__side--front {
+    background-color: #fff; 
+  }
+  
+  .card__side--back {
+    transform: rotateY(180deg); 
+  }
+  
+  .card__side--back-1 {
+    background-image: linear-gradient(to right bottom, rgba(141, 77, 5, 0.424), rgba(130, 153, 189, 0.26)); 
+  }
+  
+  .card:hover .card__side--front {
+    transform: rotateY(-180deg); 
+  }
+  
+  .card:hover .card__side--back {
+    transform: rotateY(0); 
+  }
+  
+  .card__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+  }
+  
+  .card__heading {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 19rem;
+    right: 2rem;
+    width: 75%; 
+    font-family:'Montserrat';
+  }
+  
+  .card__heading-span {
+    padding: 0.7rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; 
+    font-family:'Montserrat';
+  }
+  
+  .card__heading-span--1 {
+    background-image: linear-gradient(to right bottom, rgba(228, 164, 91, 0.8), rgba(130, 153, 189, 0.8)); 
+  }
+  
+  .card__details {
+    padding: 2.8rem; 
+    font-family:'Montserrat';
+  }
+  
+  .card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto; 
+    font-family:'Montserrat';
+  }
+  
+  .card__details ul li {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem; 
+  }
+  
+  .card__details ul li:not(:last-child) {
+      border-bottom: 1px solid #eee; 
+  }
+  
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; 
+  }
+  
+  .card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem; 
+  }
+  
+  .card__price-only {
+    font-size: 1.2rem;
+    text-transform: uppercase; 
+    margin-bottom: 3rem;
+    font-weight: 100;
+    color: #fff;
+  }
+  
+  .card__price-value {
+    font-size: 5rem;
+    font-weight: 200; 
+    font-family:'Montserrat';
+    color: rgb(255, 255, 255);
+  }
+
+ /* ----------------- */
+    /* Responsive */
+/* ----------------- */
+
+  @media only screen and (max-width: 1240px) {
+    .card__heading{
+      font-size: 1.7rem !important;
+    }
+
+    .btn{
+      width:50% !important;
+    }
+
+    .card__details ul li {
+      font-size: 1.2rem !important; 
+    }
+
+    .card__details ul {
+      margin-top: -33px !important;
+    }
+
+    .card__side {
+      -webkit-backface-visibility:visible !important;
+      backface-visibility: visible !important;
+    }
+
+    .card__side--back {
+      transform: rotateY(0deg) !important;
+      top: 43rem !important;
+      width:100% !important;
+      height:280px !important;
+    }
+
+    .card__price-only {
+      font-size: 1rem !important;
+    }
+
+    .card__price-value {
+      font-size: 3.3rem !important;
+    }
+
+    .card:hover .card__side--back {
+      transform:none !important; 
+    }
+
+    .card:hover .card__side--front {
+      transform: rotateY(0deg) !important; 
+    }
+
+    .card {
+      width: 90%;
+      margin-bottom: 15rem;
+    }
+  }
