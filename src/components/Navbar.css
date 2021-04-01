@@ -159,9 +159,10 @@
     }
   }
 
-  @media screen and (max-width: 390px) {
+  /* iphone 6s */
+  @media screen and (max-width: 390px) { 
     .navbar{
-      background:red ;
+      background:#28282b;
       font-size: 1.5rem !important;
     }
 

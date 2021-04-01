@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gbhotel/static/css/main.84fff596.chunk.css",
-    "main.js": "/gbhotel/static/js/main.36b63371.chunk.js",
-    "main.js.map": "/gbhotel/static/js/main.36b63371.chunk.js.map",
+    "main.css": "/gbhotel/static/css/main.ea4398bd.chunk.css",
+    "main.js": "/gbhotel/static/js/main.ad31fe71.chunk.js",
+    "main.js.map": "/gbhotel/static/js/main.ad31fe71.chunk.js.map",
     "runtime-main.js": "/gbhotel/static/js/runtime-main.e957e869.js",
     "runtime-main.js.map": "/gbhotel/static/js/runtime-main.e957e869.js.map",
     "static/js/2.ce2a172b.chunk.js": "/gbhotel/static/js/2.ce2a172b.chunk.js",
     "static/js/2.ce2a172b.chunk.js.map": "/gbhotel/static/js/2.ce2a172b.chunk.js.map",
     "index.html": "/gbhotel/index.html",
-    "static/css/main.84fff596.chunk.css.map": "/gbhotel/static/css/main.84fff596.chunk.css.map",
+    "static/css/main.ea4398bd.chunk.css.map": "/gbhotel/static/css/main.ea4398bd.chunk.css.map",
     "static/js/2.ce2a172b.chunk.js.LICENSE.txt": "/gbhotel/static/js/2.ce2a172b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e957e869.js",
     "static/js/2.ce2a172b.chunk.js",
-    "static/css/main.84fff596.chunk.css",
-    "static/js/main.36b63371.chunk.js"
+    "static/css/main.ea4398bd.chunk.css",
+    "static/js/main.ad31fe71.chunk.js"
   ]
 }

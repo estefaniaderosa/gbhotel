@@ -27,8 +27,7 @@ For lovers of golf, just 35 minutes from the hotel , you’ll find a beautiful G
 
             <div className="about-image-container">
                 <img src='https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=881&q=80' alt='beach'/>
-                <img src='https://images.unsplash.com/photo-1506079334139-58105ce48c5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80' alt='bar '/>
-            </div>
+               </div>
             </div>
         </div>
     )

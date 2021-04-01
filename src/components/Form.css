@@ -162,7 +162,6 @@
 
   .select-type input{
     margin-left: 60px;
-    
 }
 
 .select-type label{
@@ -225,4 +224,10 @@
   font-size: 20px;  
 }
 
+}
+
+@media only screen and (max-width: 350px) {
+.select-type input{
+  margin-left: 40px;
+}
 }
