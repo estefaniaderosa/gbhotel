@@ -12,7 +12,7 @@ const Tours = () => {
 
            <Tour 
                 title='Sightseeing Tour'
-                content='Get to know all the beaches from the sea!'
+                content='Get to know all beaches from the sea'
                 image='url(https://images.unsplash.com/photo-1613473119283-fdfee141ca86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2104&q=80)'
                 extra='Book now'
             />
