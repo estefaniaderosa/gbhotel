@@ -49,7 +49,7 @@ window.addEventListener('resize',showButton);
                       <li className="nav-item">
                           <Link to='/aboutus' className="nav-links" onClick={closeMobileMenu}>About us</Link>
                       </li>
-                      {/* <li className="nav-btn">
+                      <li className="nav-btn">
                           {button ? (
                                <li className="nav-item">
                                    <Link to='/book' className="nav-links" onClick={closeMobileMenu}>RESERVATIONS</Link>
@@ -59,7 +59,7 @@ window.addEventListener('resize',showButton);
                                   <Button buttonStyle="btn--outline" buttonSize='btn--mobile'>BOOK NOW</Button>
                               </Link>
                           )}
-                      </li> */}
+                      </li>
                       
                   </ul>
               </div>
