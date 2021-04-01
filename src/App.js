@@ -20,12 +20,12 @@ const App = () => {
       <Navbar />
         <Switch>
           <Route path="/gbhotel" exact component={Home} />
-          <Route path="/rooms" component={Rooms} />
-          <Route path="/tours" component={Tours} />
-          <Route path="/reviews" component={Reviews} />
-          <Route path="/aboutus" component={AboutUs} />
-          <Route path="/book" component={Book} />
-          <Route path="/subscribed" component={Subscribed} />
+          <Route path="/gbhotel/rooms" component={Rooms} />
+          <Route path="/gbhotel/tours" component={Tours} />
+          <Route path="/gbhotel/reviews" component={Reviews} />
+          <Route path="/gbhotel/aboutus" component={AboutUs} />
+          <Route path="/gbhotel/book" component={Book} />
+          <Route path="/gbhotel/subscribed" component={Subscribed} />
         </Switch>
       <Footer />
     </Router>
