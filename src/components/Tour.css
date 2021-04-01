@@ -70,12 +70,12 @@
    height:73%;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 410px) {
     .tour-info{
         max-width:4px;
         margin-left: 0px;
-        padding: 7px 12px;
-        border: 1px solid rgb(219, 18, 18);
+        padding: 7px 9px;
+        border: 1px solid rgb(142, 219, 18);
         border-radius:40px;
         
     }
