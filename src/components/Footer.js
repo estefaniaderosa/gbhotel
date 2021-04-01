@@ -46,7 +46,7 @@ const Footer= ()=> {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='/gbhotel'
               target='_blank'
               aria-label='Facebook'
             >
@@ -55,7 +55,7 @@ const Footer= ()=> {
             
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/gbhotel'
               target='_blank'
               aria-label='Instagram'
             >
@@ -64,7 +64,7 @@ const Footer= ()=> {
 
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='/gbhotel'
               target='_blank'
               aria-label='Youtube'
             >
@@ -73,7 +73,7 @@ const Footer= ()=> {
 
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/gbhotel'
               target='_blank'
               aria-label='Twitter'
             >
@@ -82,7 +82,7 @@ const Footer= ()=> {
 
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to='/gbhotel'
               target='_blank'
               aria-label='LinkedIn'
             >
