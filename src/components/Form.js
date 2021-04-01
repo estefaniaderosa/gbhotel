@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Form.css';
 
 const Form = () => {
@@ -46,7 +47,7 @@ const Form = () => {
                                 </div>
 
                                 <div className="form__group">
-                                    <button className="boton"><p>Search</p></button>
+                                   <Link to="/gbhotel"> <button className="boton"><p>Search</p></button></Link>
                                 </div>
                             </form>
                         </div>
