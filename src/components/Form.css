@@ -2,7 +2,8 @@
  /* FORM */
 .book-container {
       width: 0px;
-      height:0px
+      height:0px;
+      min-height: 900px;
   } 
 
   /* FORM TITLE */
@@ -226,8 +227,9 @@
 
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 390px) {
 .select-type input{
   margin-left: 10px;
+  display: inline-block;
 }
 }
